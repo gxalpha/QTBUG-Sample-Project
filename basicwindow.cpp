@@ -1,4 +1,4 @@
-#include "basicwindow.h"
+#include "moc_basicwindow.cpp"
 
 BasicWindow::BasicWindow(QWidget *parent)
     : QMainWindow(parent),

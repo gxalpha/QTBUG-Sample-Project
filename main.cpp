@@ -7,7 +7,7 @@ int main(int argc, char *argv[])
 {
     std::cout << "Compiled: " << QT_VERSION_STR << ", Runtime: " << qVersion() << std::endl;
     QApplication a(argc, argv);
-    BasicWindow *main = new BasicWindow();
-    main->show();
+    BasicWindow main;
+    main.show();
     return a.exec();
 }

@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.5)
+cmake_minimum_required(VERSION 3.28..3.31)
 
 project(QTBUG-Sample-Project VERSION 1.0 LANGUAGES CXX)
 
